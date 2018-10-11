@@ -919,7 +919,7 @@ a:active {
   display: block;
   position: relative;
   min-height: 100px;
-  background: #ccc;
+  /*background: #ccc;*/
 }
 .box-masonry .box-masonry-image.with-hover-overlay:before {
   display: block;
@@ -1300,6 +1300,7 @@ STYLE SWITCHER FOR DEMO
 /* navbar */
 .navbar {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-display: swap;
   min-height: 80px;
   margin-bottom: 0;
   border-top: none;
@@ -1587,6 +1588,7 @@ STYLE SWITCHER FOR DEMO
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-display: swap;
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
@@ -1664,6 +1666,7 @@ hr {
 .btn {
   font-weight: 400;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-display: swap;
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.55;
@@ -1783,6 +1786,7 @@ fieldset[disabled] .btn-transparent.active {
 /* labels */
 .label {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-display: swap;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1837,6 +1841,7 @@ label {
   letter-spacing: 0.1em;
   font-size: 14px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-display: swap;
   font-weight: bold;
 }
 .pager li {
@@ -1866,6 +1871,7 @@ label {
 .pagination {
   margin: 24px 0;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-display: swap;
   border-radius: 0;
 }
 .pagination > li > a,
@@ -1952,6 +1958,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-display: swap;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
